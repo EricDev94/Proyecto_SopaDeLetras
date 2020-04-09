@@ -4,27 +4,52 @@ body{
 
 #caja{
 	border-style: solid;
-    width: 30%;
     height: 90%;
     margin-left: 30%;
     margin-top: 2%;
     background-color: #AEC273;
+    opacity: 0.8;
+    width: 600px;
+    border-radius: 20px;
 }
+
+#cajaJuego{
+	margin-left: 7px;
+    margin-right: -27px;
+    margin-top: 8px;
+    margin-bottom: 7px;
+}
+
+
 
 .letra{
-	border-style: dashed;
-	width: 4%;
-	height: 20px;
-	margin-left: 5px;
-	margin-right: 3px;
-	margin-top: 3px;
-	margin-bottom: 3px;
-	display: inline-grid;
-	text-align: center;
-	font-family: helvetica, arial;
+	border-style: solid;
+    width: 4%;
+    height: 20px;
+    margin-left: 5px;
+    margin-right: 3px;
+    margin-top: 3px;
+    margin-bottom: 3px;
+    display: inline-grid;
+    text-align: center;
+    font-family: helvetica, arial;
+    border-radius: 4px;
 
 }
+
+
+.letra:hover{
+	background-color: #C0C0C0;
+}
+
+
 
 #logo{
 	margin-left: 30%;
+}
+
+#imagen{
+	height: 158px;
+    margin-left: 130px;
+}
 }
